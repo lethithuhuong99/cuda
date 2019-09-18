@@ -3,6 +3,11 @@ html {
   font-family: sans-serif; /* 2 */
 }
 
+@font-face {
+  font-family: TitilliumWeb;
+  src: url("../fonts/TitilliumWeb-Regular.ttf");
+}
+
 *,
 *::before,
 *::after {
@@ -21,15 +26,14 @@ body {
 }
 
 h2 {
+  object-fit: contain;
   font-family: TitilliumWeb;
-  font-size: 40px;
+  font-size: 24px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: 0.75;
-  letter-spacing: 4px;
-  text-align: center;
-  color: var(--color-white);
+  letter-spacing: 0.48px;
 }
 
 h2.primary-color {
@@ -51,17 +55,18 @@ h2.primary-color {
   font-stretch: normal;
   line-height: 1.54;
   letter-spacing: 0.35px;
+  margin-top: 54px;
 }
 
 header {
   background-color: var(--purplish);
-  width: 100%;
+  width: 1440px;
   height: 596px;
   position: relative;
   padding: 60px 195px 0px 210px;
 }
 
-h1 {
+.text {
   width: 906px;
   height: 88px;
   object-fit: contain;
@@ -109,4 +114,67 @@ li {
   color: var(--color-white);
   text-align: right;
   float: right;
+}
+
+.body-1 {
+  width: 1440px;
+  height: 747px;
+  position: relative;
+  background-color: #17c2a4;
+  text-align: center;
+  padding-top: 120px;
+  color: var(--color-white);
+}
+
+.title {
+  object-fit: contain;
+  font-family: TitilliumWeb;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.75;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.information-body-1 {
+  object-fit: contain;
+  font-family: TitilliumWeb;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: 0.36px;
+  text-align: center;
+  color: var(--color-white);
+}
+
+hr {
+  width: 87px;
+  height: 4px;
+  object-fit: contain;
+  opacity: 0.15;
+  background-color: #000000;
+}
+
+.service-item {
+  display: inline-block;
+  width: 200px;
+  box-sizing: border-box;
+  margin: 83px 48px 0px 48px;
+}
+
+p {
+  object-fit: contain;
+  font-family: TitilliumWeb;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-align: center;
 }
