@@ -20,6 +20,7 @@ html {
   --primary-color: aqua;
   --dusty-orange: #eb7d4b;
   --purplish: #87509c;
+  --pale-grey: #e7f1f8;
 }
 body {
   background-color: var(--main-bg-color);
@@ -177,4 +178,16 @@ p {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-align: center;
+}
+
+.pencil-icon,
+.rocket-icon {
+  margin-bottom: 33px;
+}
+
+.body-2 {
+  width: 1440px;
+  height: 915px;
+  object-fit: contain;
+  background-color: var(--pale-grey);
 }
